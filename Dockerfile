@@ -7,6 +7,7 @@ RUN apk update \
     git \
     less \
     nodejs \
+    postgresql-dev
     yarn \ 
     tzdata \
   && rm -rf /var/cache/apk/*
